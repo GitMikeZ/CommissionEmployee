@@ -1,5 +1,4 @@
-// CommissionEmployee.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// CommissionEmployee.cpp
 
 #include <iostream>
 #include "CommissionEmployee.h"
@@ -7,8 +6,7 @@
 using namespace std;
 
 // constructor
-CommissionEmployee::CommissionEmployee(
-	const string &first, const string &last, const string &ssn, double sales, double rate)
+CommissionEmployee::CommissionEmployee(const string &first, const string &last, const string &ssn, double sales, double rate)
 {
 	firstName = first;
 	lastName = last;
